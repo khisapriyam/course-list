@@ -39,10 +39,10 @@ var fakeCourses =
     "name": "React JS",
     "price": 124
   }, {
-    "name": "Angular JS",
+    "name": "Graphics Design",
     "price": 193
   }, {
-    "name": "Vue JS",
+    "name": "Adobe Photoshop",
     "price": 125
   }];
 

@@ -4,8 +4,6 @@
 }
 .button{
     cursor: pointer;
-    background-color:green;
-    color: white;
     padding: 8px;
     border-radius: 5px;
 }

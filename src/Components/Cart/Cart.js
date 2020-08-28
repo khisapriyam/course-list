@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css';
+import { Button } from 'react-bootstrap';
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -24,7 +25,7 @@ const Cart = (props) => {
             <p>Course Price : {formatNumber(total)}</p>
             <p>Tax & Vat : {formatNumber(tax)}</p>
             <p>Total Price : {formatNumber(grandTotal)} </p>
-            <button className = 'buy-now-btn'>Buy Now</button>
+            <Button className = 'buy-now-btn' variant="success">Buy Now</Button>{' '}
             
         </div>
     );
