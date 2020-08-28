@@ -3,7 +3,7 @@ import './Product.css';
 import { Button } from 'react-bootstrap';
 
 const Product = (props) => {
-    const {name, price, seller} = props.course; 
+    const {name, price} = props.course; 
     return (
         <div className = "products">
             <h3>Course Name : {name}</h3>
