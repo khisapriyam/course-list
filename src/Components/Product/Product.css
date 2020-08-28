@@ -1,0 +1,11 @@
+.products{
+    box-shadow: 2px 2px 10px lightgrey;
+    padding: 10px;
+}
+.button{
+    cursor: pointer;
+    background-color:green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
