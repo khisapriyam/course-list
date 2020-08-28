@@ -8,10 +8,8 @@ const Cart = (props) => {
     for (let i = 0; i < cart.length; i++) {
         const course = cart[i];
         total = total + course.price;
-
     }
     const tax = total/15;
-    //const grandTotal =(total + Number(tax)).toFixed(2);
     const grandTotal = total + tax;
     const formatNumber = num => {
         const precision = num.toFixed(2);
@@ -25,8 +23,7 @@ const Cart = (props) => {
             <p>Course Price : {formatNumber(total)}</p>
             <p>Tax & Vat : {formatNumber(tax)}</p>
             <p>Total Price : {formatNumber(grandTotal)} </p>
-            <Button className = 'buy-now-btn' variant="success">Buy Now</Button>{' '}
-            
+            <Button className = 'buy-now-btn' variant="success">Buy Now</Button>{' '}  
         </div>
     );
 };
